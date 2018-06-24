@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48636F0020DF6656005A77CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48636EFF20DF6656005A77CD /* AppDelegate.m */; };
+		48636F0320DF6656005A77CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48636F0220DF6656005A77CD /* ViewController.m */; };
+		48636F0620DF6656005A77CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48636F0420DF6656005A77CD /* Main.storyboard */; };
+		48636F0820DF6656005A77CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48636F0720DF6656005A77CD /* Assets.xcassets */; };
+		48636F0B20DF6656005A77CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48636F0920DF6656005A77CD /* LaunchScreen.storyboard */; };
+		48636F0E20DF6656005A77CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48636F0D20DF6656005A77CD /* main.m */; };
+		48636F1820DF6656005A77CD /* YooIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48636F1720DF6656005A77CD /* YooIOSTests.m */; };
+		48636F2320DF6656005A77CD /* YooIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48636F2220DF6656005A77CD /* YooIOSUITests.m */; };
+		48636F3420DF6B42005A77CD /* RNBundle in Resources */ = {isa = PBXBuildFile; fileRef = 48636F3320DF6B42005A77CD /* RNBundle */; };
+		48636F4020DF8350005A77CD /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48636F3C20DF8350005A77CD /* AppManager.m */; };
+		48636F4120DF8350005A77CD /* RNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48636F3E20DF8350005A77CD /* RNBaseViewController.m */; };
+		CED7178A280DADF68C19F70F /* libPods-YooIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66724E533F60E6857E62545A /* libPods-YooIOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48636F1420DF6656005A77CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48636EF320DF6656005A77CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48636EFA20DF6656005A77CD;
+			remoteInfo = YooIOS;
+		};
+		48636F1F20DF6656005A77CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48636EF320DF6656005A77CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48636EFA20DF6656005A77CD;
+			remoteInfo = YooIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48636EFB20DF6656005A77CD /* YooIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YooIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48636EFE20DF6656005A77CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48636EFF20DF6656005A77CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48636F0120DF6656005A77CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48636F0220DF6656005A77CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48636F0520DF6656005A77CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48636F0720DF6656005A77CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48636F0A20DF6656005A77CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48636F0C20DF6656005A77CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48636F0D20DF6656005A77CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48636F1320DF6656005A77CD /* YooIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YooIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48636F1720DF6656005A77CD /* YooIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YooIOSTests.m; sourceTree = "<group>"; };
+		48636F1920DF6656005A77CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48636F1E20DF6656005A77CD /* YooIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YooIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48636F2220DF6656005A77CD /* YooIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YooIOSUITests.m; sourceTree = "<group>"; };
+		48636F2420DF6656005A77CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48636F3320DF6B42005A77CD /* RNBundle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RNBundle; sourceTree = "<group>"; };
+		48636F3B20DF8350005A77CD /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		48636F3C20DF8350005A77CD /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		48636F3E20DF8350005A77CD /* RNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBaseViewController.m; sourceTree = "<group>"; };
+		48636F3F20DF8350005A77CD /* RNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBaseViewController.h; sourceTree = "<group>"; };
+		66724E533F60E6857E62545A /* libPods-YooIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YooIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3D191A2E86B6B0EEB52D11 /* Pods-YooIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YooIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YooIOS/Pods-YooIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FEA101235AC4EC84FB581283 /* Pods-YooIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YooIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-YooIOS/Pods-YooIOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48636EF820DF6656005A77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED7178A280DADF68C19F70F /* libPods-YooIOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48636F1020DF6656005A77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48636F1B20DF6656005A77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2131D114E264D34285AA6ADE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB3D191A2E86B6B0EEB52D11 /* Pods-YooIOS.debug.xcconfig */,
+				FEA101235AC4EC84FB581283 /* Pods-YooIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		48636EF220DF6656005A77CD = {
+			isa = PBXGroup;
+			children = (
+				48636EFD20DF6656005A77CD /* YooIOS */,
+				48636F1620DF6656005A77CD /* YooIOSTests */,
+				48636F2120DF6656005A77CD /* YooIOSUITests */,
+				48636EFC20DF6656005A77CD /* Products */,
+				2131D114E264D34285AA6ADE /* Pods */,
+				678798FA65E3BE52B41AA849 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48636EFC20DF6656005A77CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48636EFB20DF6656005A77CD /* YooIOS.app */,
+				48636F1320DF6656005A77CD /* YooIOSTests.xctest */,
+				48636F1E20DF6656005A77CD /* YooIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48636EFD20DF6656005A77CD /* YooIOS */ = {
+			isa = PBXGroup;
+			children = (
+				48636F3920DF8350005A77CD /* common */,
+				48636F3320DF6B42005A77CD /* RNBundle */,
+				48636EFE20DF6656005A77CD /* AppDelegate.h */,
+				48636EFF20DF6656005A77CD /* AppDelegate.m */,
+				48636F0120DF6656005A77CD /* ViewController.h */,
+				48636F0220DF6656005A77CD /* ViewController.m */,
+				48636F0420DF6656005A77CD /* Main.storyboard */,
+				48636F0720DF6656005A77CD /* Assets.xcassets */,
+				48636F0920DF6656005A77CD /* LaunchScreen.storyboard */,
+				48636F0C20DF6656005A77CD /* Info.plist */,
+				48636F0D20DF6656005A77CD /* main.m */,
+			);
+			path = YooIOS;
+			sourceTree = "<group>";
+		};
+		48636F1620DF6656005A77CD /* YooIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				48636F1720DF6656005A77CD /* YooIOSTests.m */,
+				48636F1920DF6656005A77CD /* Info.plist */,
+			);
+			path = YooIOSTests;
+			sourceTree = "<group>";
+		};
+		48636F2120DF6656005A77CD /* YooIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48636F2220DF6656005A77CD /* YooIOSUITests.m */,
+				48636F2420DF6656005A77CD /* Info.plist */,
+			);
+			path = YooIOSUITests;
+			sourceTree = "<group>";
+		};
+		48636F3920DF8350005A77CD /* common */ = {
+			isa = PBXGroup;
+			children = (
+				48636F3A20DF8350005A77CD /* manager */,
+				48636F3D20DF8350005A77CD /* view */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		48636F3A20DF8350005A77CD /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				48636F3B20DF8350005A77CD /* AppManager.h */,
+				48636F3C20DF8350005A77CD /* AppManager.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		48636F3D20DF8350005A77CD /* view */ = {
+			isa = PBXGroup;
+			children = (
+				48636F3E20DF8350005A77CD /* RNBaseViewController.m */,
+				48636F3F20DF8350005A77CD /* RNBaseViewController.h */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		678798FA65E3BE52B41AA849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66724E533F60E6857E62545A /* libPods-YooIOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48636EFA20DF6656005A77CD /* YooIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48636F2720DF6656005A77CD /* Build configuration list for PBXNativeTarget "YooIOS" */;
+			buildPhases = (
+				E6935677CAE4A7746E0EFB09 /* [CP] Check Pods Manifest.lock */,
+				48636EF720DF6656005A77CD /* Sources */,
+				48636EF820DF6656005A77CD /* Frameworks */,
+				48636EF920DF6656005A77CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YooIOS;
+			productName = YooIOS;
+			productReference = 48636EFB20DF6656005A77CD /* YooIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48636F1220DF6656005A77CD /* YooIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48636F2A20DF6656005A77CD /* Build configuration list for PBXNativeTarget "YooIOSTests" */;
+			buildPhases = (
+				48636F0F20DF6656005A77CD /* Sources */,
+				48636F1020DF6656005A77CD /* Frameworks */,
+				48636F1120DF6656005A77CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48636F1520DF6656005A77CD /* PBXTargetDependency */,
+			);
+			name = YooIOSTests;
+			productName = YooIOSTests;
+			productReference = 48636F1320DF6656005A77CD /* YooIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48636F1D20DF6656005A77CD /* YooIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48636F2D20DF6656005A77CD /* Build configuration list for PBXNativeTarget "YooIOSUITests" */;
+			buildPhases = (
+				48636F1A20DF6656005A77CD /* Sources */,
+				48636F1B20DF6656005A77CD /* Frameworks */,
+				48636F1C20DF6656005A77CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48636F2020DF6656005A77CD /* PBXTargetDependency */,
+			);
+			name = YooIOSUITests;
+			productName = YooIOSUITests;
+			productReference = 48636F1E20DF6656005A77CD /* YooIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48636EF320DF6656005A77CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = flyye;
+				TargetAttributes = {
+					48636EFA20DF6656005A77CD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					48636F1220DF6656005A77CD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48636EFA20DF6656005A77CD;
+					};
+					48636F1D20DF6656005A77CD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48636EFA20DF6656005A77CD;
+					};
+				};
+			};
+			buildConfigurationList = 48636EF620DF6656005A77CD /* Build configuration list for PBXProject "YooIOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48636EF220DF6656005A77CD;
+			productRefGroup = 48636EFC20DF6656005A77CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48636EFA20DF6656005A77CD /* YooIOS */,
+				48636F1220DF6656005A77CD /* YooIOSTests */,
+				48636F1D20DF6656005A77CD /* YooIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48636EF920DF6656005A77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48636F0B20DF6656005A77CD /* LaunchScreen.storyboard in Resources */,
+				48636F0820DF6656005A77CD /* Assets.xcassets in Resources */,
+				48636F3420DF6B42005A77CD /* RNBundle in Resources */,
+				48636F0620DF6656005A77CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48636F1120DF6656005A77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48636F1C20DF6656005A77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6935677CAE4A7746E0EFB09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YooIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48636EF720DF6656005A77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48636F0320DF6656005A77CD /* ViewController.m in Sources */,
+				48636F0E20DF6656005A77CD /* main.m in Sources */,
+				48636F0020DF6656005A77CD /* AppDelegate.m in Sources */,
+				48636F4020DF8350005A77CD /* AppManager.m in Sources */,
+				48636F4120DF8350005A77CD /* RNBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48636F0F20DF6656005A77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48636F1820DF6656005A77CD /* YooIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48636F1A20DF6656005A77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48636F2320DF6656005A77CD /* YooIOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48636F1520DF6656005A77CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48636EFA20DF6656005A77CD /* YooIOS */;
+			targetProxy = 48636F1420DF6656005A77CD /* PBXContainerItemProxy */;
+		};
+		48636F2020DF6656005A77CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48636EFA20DF6656005A77CD /* YooIOS */;
+			targetProxy = 48636F1F20DF6656005A77CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48636F0420DF6656005A77CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48636F0520DF6656005A77CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48636F0920DF6656005A77CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48636F0A20DF6656005A77CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48636F2520DF6656005A77CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48636F2620DF6656005A77CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48636F2820DF6656005A77CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3D191A2E86B6B0EEB52D11 /* Pods-YooIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YooIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yooba.YooIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48636F2920DF6656005A77CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA101235AC4EC84FB581283 /* Pods-YooIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YooIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yooba.YooIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48636F2B20DF6656005A77CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YooIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yooba.YooIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YooIOS.app/YooIOS";
+			};
+			name = Debug;
+		};
+		48636F2C20DF6656005A77CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YooIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yooba.YooIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YooIOS.app/YooIOS";
+			};
+			name = Release;
+		};
+		48636F2E20DF6656005A77CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YooIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yooba.YooIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YooIOS;
+			};
+			name = Debug;
+		};
+		48636F2F20DF6656005A77CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YooIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yooba.YooIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YooIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48636EF620DF6656005A77CD /* Build configuration list for PBXProject "YooIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48636F2520DF6656005A77CD /* Debug */,
+				48636F2620DF6656005A77CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48636F2720DF6656005A77CD /* Build configuration list for PBXNativeTarget "YooIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48636F2820DF6656005A77CD /* Debug */,
+				48636F2920DF6656005A77CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48636F2A20DF6656005A77CD /* Build configuration list for PBXNativeTarget "YooIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48636F2B20DF6656005A77CD /* Debug */,
+				48636F2C20DF6656005A77CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48636F2D20DF6656005A77CD /* Build configuration list for PBXNativeTarget "YooIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48636F2E20DF6656005A77CD /* Debug */,
+				48636F2F20DF6656005A77CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48636EF320DF6656005A77CD /* Project object */;
+}
