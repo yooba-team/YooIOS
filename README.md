@@ -1,6 +1,9 @@
 # YooIOS
 ios wallet,goods explorer,account home page explorer,etc.
 
+# Plan & Guide
+https://github.com/yooba-team/plans/blob/master/ios-guide.md
+
 # build
 1.  git clone https://github.com/yooba-team/YooIOS --recursive
 
